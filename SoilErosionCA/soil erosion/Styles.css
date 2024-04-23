@@ -1,0 +1,51 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+  background-image: url(soil.jpg); 
+  background-size: cover; /* Ensure full coverage of background */
+  color: #ffffff;
+  line-break: auto;
+  padding-bottom: 50px;
+}
+
+header {
+  background-image: url(soilerosion.jpg);
+  color: rgb(255, 255, 255);
+  background-blend-mode: darken;
+  padding: 20px;
+  text-align: center;
+  border-bottom: 2px solid #000000; /* Soil-like color */
+}
+
+nav {
+  background-color: #4f410c; /* Green, representing vegetation */
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 20px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+main {
+  padding: 20px;
+}
+
+footer {
+  background-image: url(soilerosion.jpg);
+  color: white;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
